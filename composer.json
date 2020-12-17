@@ -1,0 +1,20 @@
+{
+    "name": "intradesys\/ebay-api-file-transfer-v110",
+    "description": "fileTransfer API Version 1.1.0",
+    "authors": [
+        {
+            "name": "globalsync",
+            "email": "info@intradesys.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0",
+        "ext-xml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "InTradeSys\\eBay\\fileTransfer\\": "src"
+        }
+    }
+}
